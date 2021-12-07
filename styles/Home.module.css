@@ -26,3 +26,28 @@
   background-color: rgb(243, 239, 20);
   transition: background-color 0.5s;
 }
+
+.player1 {
+  background-color: rgb(251, 42, 42);
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  padding: 2px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.player2 {
+  background-color: rgb(243, 239, 20);
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  padding: 2px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.player1.active,
+.player2.active {
+  border: 1px solid blue;
+}
